@@ -1,0 +1,78 @@
+/** Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/** Container */
+.container {
+  background: green;
+  position: relative;
+  height: 800px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 1em;
+}
+
+/*$ Positioning */
+/** relative  */
+
+/* h2 {
+    position: relative;
+    left: 1rem;
+    top: 2rem;
+    color: white;
+} */
+/* #div1 {
+    background-color: darkblue;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+} */
+
+/** absolute */
+.div {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+/* .red {
+  background: red;
+  opacity: 0.7;
+  position: absolute;
+  top: 2em;
+  left: 10px;
+}
+.yellow {
+  background: yellow;
+  position: absolute;
+  left: 70px;
+} */
+
+/** fixed  */
+/* .blue {
+    background: blue;
+    position: fixed;
+    top: 5rem;
+    left: 100px;
+    opacity: 0.7;
+} */
+
+/** sticky  */
+/* .aqua {
+    background: aqua;
+    position: sticky;
+    left: 40%;
+    top: 0;
+    opacity: 0.7;
+} */
