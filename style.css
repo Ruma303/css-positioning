@@ -6,33 +6,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
 
 /** Container */
 .container {
-  background: green;
   position: relative;
+  /* z-index: -99999; */
+  background: green;
   height: 800px;
   width: 500px;
   border: 1px solid black;
   margin: 0;
   padding: 1em;
+
+  /*? Elementi figli centrati */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1rem; */
 }
 
 /*$ Positioning */
 /** relative  */
 
-/* h2 {
-    position: relative;
+h2 {
+  /* position: relative;
     left: 1rem;
-    top: 2rem;
-    color: white;
-} */
+    top: 2rem; */
+  color: white;
+  /* text-align: center; */
+}
 /* #div1 {
     background-color: darkblue;
     height: 50px;
@@ -40,12 +43,13 @@ a {
     border: 1px solid black;
 } */
 
-/** absolute */
-.div {
+/* .div {
   height: 50px;
   width: 50px;
   border: 2px solid black;
-}
+} */
+
+/** absolute */
 /* .red {
   background: red;
   opacity: 0.7;
@@ -76,3 +80,70 @@ a {
     top: 0;
     opacity: 0.7;
 } */
+
+/*% Z-index*/
+/* .div {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/*$ Contesto di sovrapposizione */
+/* .div1 {
+  background-color: red;
+  z-index: 99999;
+}
+.div2 {
+  background-color: orange;
+  z-index: 2;
+}
+.div3 {
+  background-color: blue;
+  z-index: 1;
+} */
+
+/*$ Altro sugli z-index */
+
+/* .genitore {
+position: relative;
+z-index: 1;
+}
+
+.figlio1 {
+position: absolute;
+z-index: 10;
+}
+
+.figlio2 {
+position: absolute;
+z-index: 20;
+} */
+
+
+
+/*% Transform */
+
+    /* .div {
+        border: 2px solid black;
+        position: relative;
+        background-color: blue;
+        width: 250px;
+        height: 150px;
+    }
+    h2 {
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    } */
+
+
+
